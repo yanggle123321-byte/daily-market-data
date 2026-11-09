@@ -1,0 +1,121 @@
+{
+  "generated_at": "2026-11-08T13:01:26.050386Z",
+  "indices": [
+    {
+      "code": "000300",
+      "name": "沪深300",
+      "group": "huijin",
+      "close": 4054.28,
+      "date": "2026-11-06",
+      "high_250d": 5059.66,
+      "drawdown_pct": -19.87,
+      "zone": "buy",
+      "status": "ok"
+    },
+    {
+      "code": "000016",
+      "name": "上证50",
+      "group": "huijin",
+      "close": 2787.41,
+      "date": "2026-11-06",
+      "high_250d": 3158.76,
+      "drawdown_pct": -11.76,
+      "zone": "watch",
+      "status": "ok"
+    },
+    {
+      "code": "000688",
+      "name": "科创50",
+      "group": "huijin",
+      "close": 1253.2,
+      "date": "2026-11-06",
+      "high_250d": 2207.86,
+      "drawdown_pct": -43.24,
+      "zone": "buy",
+      "status": "ok"
+    },
+    {
+      "code": "399006",
+      "name": "创业板指",
+      "group": "huijin",
+      "close": 2465.23,
+      "date": "2026-11-06",
+      "high_250d": 4371.99,
+      "drawdown_pct": -43.61,
+      "zone": "buy",
+      "status": "ok"
+    },
+    {
+      "code": "000001",
+      "name": "上证指数",
+      "group": "major",
+      "close": 3649.18,
+      "date": "2026-11-06",
+      "high_250d": 4242.57,
+      "drawdown_pct": -13.99,
+      "zone": "watch",
+      "status": "ok"
+    },
+    {
+      "code": "399001",
+      "name": "深证成指",
+      "group": "major",
+      "close": 11175.78,
+      "date": "2026-11-06",
+      "high_250d": 16372.5,
+      "drawdown_pct": -31.74,
+      "zone": "buy",
+      "status": "ok"
+    },
+    {
+      "code": "HSI",
+      "name": "恒生指数",
+      "group": "major",
+      "close": 24481.86,
+      "date": "2026-11-06",
+      "high_250d": 27968.09,
+      "drawdown_pct": -12.47,
+      "zone": "watch",
+      "status": "ok"
+    },
+    {
+      "code": ".INX",
+      "name": "标普500",
+      "group": "major",
+      "close": 7376.86,
+      "date": "2026-11-06",
+      "high_250d": 7818.93,
+      "drawdown_pct": -5.65,
+      "zone": "neutral",
+      "status": "ok"
+    },
+    {
+      "code": ".IXIC",
+      "name": "纳斯达克",
+      "group": "major",
+      "close": 24579.42,
+      "date": "2026-11-06",
+      "high_250d": 27599.79,
+      "drawdown_pct": -10.94,
+      "zone": "watch",
+      "status": "ok"
+    },
+    {
+      "code": ".DJI",
+      "name": "道琼斯",
+      "group": "major",
+      "close": 51285.73,
+      "date": "2026-11-06",
+      "high_250d": 54349.12,
+      "drawdown_pct": -5.64,
+      "zone": "neutral",
+      "status": "ok"
+    }
+  ],
+  "summary": {
+    "total": 10,
+    "ok": 10,
+    "error": 0
+  },
+  "source": "akshare (Eastmoney/Sina quote endpoints); free, no API key. Drawdown is vs the trailing 250-trading-day highest CLOSE. Zones: buy <= -15%, watch -15%..-10%, neutral > -10%."
+}
