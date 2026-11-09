@@ -1,0 +1,50 @@
+name: Daily market snapshot
+
+# Fetches A-share + overseas index closes once a day after the A-share close
+# and commits market_snapshot.json back to this repo, so Muse and the spaces
+# can read a fresh snapshot instead of fetching live data (which burns tokens).
+#
+# Schedule: 08:30 UTC = 16:30 CST (after the 15:00 A-share close; US data is
+# the previous session's close). GitHub cron runs in UTC and may lag a few
+# minutes. Free tier: ubuntu-latest, no secrets needed (GITHUB_TOKEN only).
+
+on:
+  schedule:
+    - cron: "30 8 * * *"
+  workflow_dispatch:  # manual "Run workflow" button for testing
+
+permissions:
+  contents: write
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python 3.12
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install akshare
+
+      - name: Fetch market snapshot
+        run: python fetch_market.py
+
+      - name: Commit snapshot if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add market_snapshot.json
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "market snapshot $(date -u +%Y-%m-%dT%H:%M:%SZ)"
+            git push
+          fi
