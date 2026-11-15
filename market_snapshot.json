@@ -1,131 +1,121 @@
 {
-  "generated_at": "2026-11-15T09:13:39.630866Z",
+  "generated_at": "2026-11-15T23:49:47.187289Z",
   "indices": [
     {
       "code": "000300",
       "name": "沪深300",
       "group": "huijin",
-      "close": null,
-      "date": null,
-      "high_250d": null,
-      "drawdown_pct": null,
-      "zone": null,
-      "status": "error",
-      "error": "AttributeError: stock_zh_index_daily 已在 1.20.44 更名为 index_zh_daily_sina，请改用 ak.index_zh_daily_sina；参数与返回的列也可能有调整，用 ak.interface_info(\"index_zh_daily_sina\") 查看。完整对照见 https://akshare.akfamily.xyz/changelog.html#changelog-rename"
+      "close": 4016.29,
+      "date": "2026-11-13",
+      "high_250d": 5059.66,
+      "drawdown_pct": -20.62,
+      "zone": "buy",
+      "status": "ok"
     },
     {
       "code": "000016",
       "name": "上证50",
       "group": "huijin",
-      "close": null,
-      "date": null,
-      "high_250d": null,
-      "drawdown_pct": null,
-      "zone": null,
-      "status": "error",
-      "error": "AttributeError: stock_zh_index_daily 已在 1.20.44 更名为 index_zh_daily_sina，请改用 ak.index_zh_daily_sina；参数与返回的列也可能有调整，用 ak.interface_info(\"index_zh_daily_sina\") 查看。完整对照见 https://akshare.akfamily.xyz/changelog.html#changelog-rename"
+      "close": 2775.02,
+      "date": "2026-11-13",
+      "high_250d": 3158.76,
+      "drawdown_pct": -12.15,
+      "zone": "watch",
+      "status": "ok"
     },
     {
       "code": "000688",
       "name": "科创50",
       "group": "huijin",
-      "close": null,
-      "date": null,
-      "high_250d": null,
-      "drawdown_pct": null,
-      "zone": null,
-      "status": "error",
-      "error": "AttributeError: stock_zh_index_daily 已在 1.20.44 更名为 index_zh_daily_sina，请改用 ak.index_zh_daily_sina；参数与返回的列也可能有调整，用 ak.interface_info(\"index_zh_daily_sina\") 查看。完整对照见 https://akshare.akfamily.xyz/changelog.html#changelog-rename"
+      "close": 1279.66,
+      "date": "2026-11-13",
+      "high_250d": 2207.86,
+      "drawdown_pct": -42.04,
+      "zone": "buy",
+      "status": "ok"
     },
     {
       "code": "399006",
       "name": "创业板指",
       "group": "huijin",
-      "close": null,
-      "date": null,
-      "high_250d": null,
-      "drawdown_pct": null,
-      "zone": null,
-      "status": "error",
-      "error": "AttributeError: stock_zh_index_daily 已在 1.20.44 更名为 index_zh_daily_sina，请改用 ak.index_zh_daily_sina；参数与返回的列也可能有调整，用 ak.interface_info(\"index_zh_daily_sina\") 查看。完整对照见 https://akshare.akfamily.xyz/changelog.html#changelog-rename"
+      "close": 2426.08,
+      "date": "2026-11-13",
+      "high_250d": 4371.99,
+      "drawdown_pct": -44.51,
+      "zone": "buy",
+      "status": "ok"
     },
     {
       "code": "000001",
       "name": "上证指数",
       "group": "major",
-      "close": null,
-      "date": null,
-      "high_250d": null,
-      "drawdown_pct": null,
-      "zone": null,
-      "status": "error",
-      "error": "AttributeError: stock_zh_index_daily 已在 1.20.44 更名为 index_zh_daily_sina，请改用 ak.index_zh_daily_sina；参数与返回的列也可能有调整，用 ak.interface_info(\"index_zh_daily_sina\") 查看。完整对照见 https://akshare.akfamily.xyz/changelog.html#changelog-rename"
+      "close": 3634.35,
+      "date": "2026-11-13",
+      "high_250d": 4242.57,
+      "drawdown_pct": -14.34,
+      "zone": "watch",
+      "status": "ok"
     },
     {
       "code": "399001",
       "name": "深证成指",
       "group": "major",
-      "close": null,
-      "date": null,
-      "high_250d": null,
-      "drawdown_pct": null,
-      "zone": null,
-      "status": "error",
-      "error": "AttributeError: stock_zh_index_daily 已在 1.20.44 更名为 index_zh_daily_sina，请改用 ak.index_zh_daily_sina；参数与返回的列也可能有调整，用 ak.interface_info(\"index_zh_daily_sina\") 查看。完整对照见 https://akshare.akfamily.xyz/changelog.html#changelog-rename"
+      "close": 10968.79,
+      "date": "2026-11-13",
+      "high_250d": 16372.5,
+      "drawdown_pct": -33.0,
+      "zone": "buy",
+      "status": "ok"
     },
     {
       "code": "HSI",
       "name": "恒生指数",
       "group": "major",
-      "close": null,
-      "date": null,
-      "high_250d": null,
-      "drawdown_pct": null,
-      "zone": null,
-      "status": "error",
-      "error": "AttributeError: stock_hk_index_daily_sina 已在 1.20.44 更名为 index_hk_daily_sina，请改用 ak.index_hk_daily_sina；参数与返回的列也可能有调整，用 ak.interface_info(\"index_hk_daily_sina\") 查看。完整对照见 https://akshare.akfamily.xyz/changelog.html#changelog-rename"
+      "close": 23637.6,
+      "date": "2026-11-13",
+      "high_250d": 27968.09,
+      "drawdown_pct": -15.48,
+      "zone": "buy",
+      "status": "ok"
     },
     {
       "code": ".INX",
       "name": "标普500",
       "group": "major",
-      "close": null,
-      "date": null,
-      "high_250d": null,
-      "drawdown_pct": null,
-      "zone": null,
-      "status": "error",
-      "error": "AttributeError: index_us_stock_sina 已在 1.20.45 更名为 index_us_daily_sina，请改用 ak.index_us_daily_sina；参数与返回的列也可能有调整，用 ak.interface_info(\"index_us_daily_sina\") 查看。完整对照见 https://akshare.akfamily.xyz/changelog.html#changelog-rename"
+      "close": 7561.67,
+      "date": "2026-11-13",
+      "high_250d": 7818.93,
+      "drawdown_pct": -3.29,
+      "zone": "neutral",
+      "status": "ok"
     },
     {
       "code": ".IXIC",
       "name": "纳斯达克",
       "group": "major",
-      "close": null,
-      "date": null,
-      "high_250d": null,
-      "drawdown_pct": null,
-      "zone": null,
-      "status": "error",
-      "error": "AttributeError: index_us_stock_sina 已在 1.20.45 更名为 index_us_daily_sina，请改用 ak.index_us_daily_sina；参数与返回的列也可能有调整，用 ak.interface_info(\"index_us_daily_sina\") 查看。完整对照见 https://akshare.akfamily.xyz/changelog.html#changelog-rename"
+      "close": 25136.27,
+      "date": "2026-11-13",
+      "high_250d": 27599.79,
+      "drawdown_pct": -8.93,
+      "zone": "neutral",
+      "status": "ok"
     },
     {
       "code": ".DJI",
       "name": "道琼斯",
       "group": "major",
-      "close": null,
-      "date": null,
-      "high_250d": null,
-      "drawdown_pct": null,
-      "zone": null,
-      "status": "error",
-      "error": "AttributeError: index_us_stock_sina 已在 1.20.45 更名为 index_us_daily_sina，请改用 ak.index_us_daily_sina；参数与返回的列也可能有调整，用 ak.interface_info(\"index_us_daily_sina\") 查看。完整对照见 https://akshare.akfamily.xyz/changelog.html#changelog-rename"
+      "close": 52347.55,
+      "date": "2026-11-13",
+      "high_250d": 54349.12,
+      "drawdown_pct": -3.68,
+      "zone": "neutral",
+      "status": "ok"
     }
   ],
   "summary": {
     "total": 10,
-    "ok": 0,
-    "error": 10
+    "ok": 10,
+    "error": 0
   },
   "source": "akshare (Eastmoney/Sina quote endpoints); free, no API key. Drawdown is vs the trailing 250-trading-day highest CLOSE. Zones: buy <= -15%, watch -15%..-10%, neutral > -10%."
 }
