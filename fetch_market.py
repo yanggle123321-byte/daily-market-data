@@ -28,8 +28,8 @@ import akshare as ak
 # Index catalogue
 #   code : short identifier used in the JSON
 #   name : display name (zh)
-#   kind : "zh" (A-share, stock_zh_index_daily), "hk" (stock_hk_index_daily_sina),
-#          "us" (index_us_stock_sina)
+#   kind : "zh" (A-share, index_zh_daily_sina), "hk" (index_hk_daily_sina),
+#          "us" (index_us_daily_sina)
 #   symbol : the symbol akshare expects
 #   group : "huijin" (the 4 broad ETFs Huijin buys) or "major" (dashboard indices)
 # ---------------------------------------------------------------------------
@@ -61,11 +61,11 @@ WATCH_ZONE_PCT = -10.0      # -15% < drawdown <= -10% -> "watch"; else "neutral"
 def fetch_daily(kind, symbol):
     """Return a DataFrame with at least `date` and `close` columns."""
     if kind == "zh":
-        return ak.stock_zh_index_daily(symbol=symbol)
+        return ak.index_zh_daily_sina(symbol=symbol)
     if kind == "hk":
-        return ak.stock_hk_index_daily_sina(symbol=symbol)
+        return ak.index_hk_daily_sina(symbol=symbol)
     if kind == "us":
-        return ak.index_us_stock_sina(symbol=symbol)
+        return ak.index_us_daily_sina(symbol=symbol)
     raise ValueError(f"unknown kind {kind!r}")
 
 
