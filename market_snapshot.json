@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-11-15T23:49:47.187289Z",
+  "generated_at": "2026-11-16T10:21:40.372132Z",
   "indices": [
     {
       "code": "000300",
       "name": "沪深300",
       "group": "huijin",
-      "close": 4016.29,
-      "date": "2026-11-13",
+      "close": 3979.8,
+      "date": "2026-11-16",
       "high_250d": 5059.66,
-      "drawdown_pct": -20.62,
+      "drawdown_pct": -21.34,
       "zone": "buy",
       "status": "ok"
     },
@@ -16,10 +16,10 @@
       "code": "000016",
       "name": "上证50",
       "group": "huijin",
-      "close": 2775.02,
-      "date": "2026-11-13",
+      "close": 2766.57,
+      "date": "2026-11-16",
       "high_250d": 3158.76,
-      "drawdown_pct": -12.15,
+      "drawdown_pct": -12.42,
       "zone": "watch",
       "status": "ok"
     },
@@ -27,10 +27,10 @@
       "code": "000688",
       "name": "科创50",
       "group": "huijin",
-      "close": 1279.66,
-      "date": "2026-11-13",
+      "close": 1213.68,
+      "date": "2026-11-16",
       "high_250d": 2207.86,
-      "drawdown_pct": -42.04,
+      "drawdown_pct": -45.03,
       "zone": "buy",
       "status": "ok"
     },
@@ -49,11 +49,11 @@
       "code": "000001",
       "name": "上证指数",
       "group": "major",
-      "close": 3634.35,
-      "date": "2026-11-13",
+      "close": 3602.57,
+      "date": "2026-11-16",
       "high_250d": 4242.57,
-      "drawdown_pct": -14.34,
-      "zone": "watch",
+      "drawdown_pct": -15.09,
+      "zone": "buy",
       "status": "ok"
     },
     {
